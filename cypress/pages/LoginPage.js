@@ -14,7 +14,7 @@ login(userName, password){
 verifyLogin(){
 
     this.login();
-    cy.get(successMessage).should('be.visible')
+    cy.get(successMessage).should('be.visible');
 
     }
 }
