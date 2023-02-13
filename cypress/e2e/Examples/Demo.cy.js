@@ -20,11 +20,9 @@ describe('AsertionsSuite', () => {
 
     // //   expect(pageTitle).to.be.equal('Kitchen Sink')
     // assert.equal(pageTitle,'Kitchen Sink',"Page Title not matched." )
-    cy.visit('https://demoqa.com/elements')
+    
 
 
 })
 })
-
-
 
