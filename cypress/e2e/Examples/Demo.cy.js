@@ -4,7 +4,7 @@ describe('AsertionsSuite', () => {
       //  cy.visit('https://example.cypress.io/')
       cy.visit('https://demo.guru99.com/test/newtours/index.php')
       cy.visit('https://demoqa.com/elements')
-      console.log("launch application")
+      console.log("Launch application")
 
 
         // cy.contains('get').click()
