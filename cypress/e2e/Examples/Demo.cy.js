@@ -3,6 +3,7 @@ describe('AsertionsSuite', () => {
     it('AssertionDemo', () => {
       //  cy.visit('https://example.cypress.io/')
       cy.visit('https://demo.guru99.com/test/newtours/index.php')
+      cy.visit('https://demoqa.com/elements')
 
 
         // cy.contains('get').click()
