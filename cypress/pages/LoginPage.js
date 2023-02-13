@@ -16,6 +16,7 @@ verifyLogin(){
     this.login();
     cy.get(successMessage).should('be.visible')
     console.log("just for practicing......,.....")
+    cy.get(successMessage).should('be.visible');
 
     }
 }

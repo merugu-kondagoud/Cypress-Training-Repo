@@ -7,6 +7,10 @@ describe('AsertionsSuite', () => {
       console.log("Launch application")
 
 
+
+      
+
+
         // cy.contains('get').click()
         // cy.get('#query-btn').should('be.visible')
         // // cy.get('#query-btn1').should('be.enabled')
@@ -17,11 +21,9 @@ describe('AsertionsSuite', () => {
 
     // //   expect(pageTitle).to.be.equal('Kitchen Sink')
     // assert.equal(pageTitle,'Kitchen Sink',"Page Title not matched." )
+    
 
 
 })
-
 })
-
-
 
