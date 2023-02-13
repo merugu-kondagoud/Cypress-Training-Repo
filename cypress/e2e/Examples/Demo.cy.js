@@ -5,7 +5,7 @@ describe('AsertionsSuite', () => {
       cy.visit('https://demo.guru99.com/test/newtours/index.php')
       cy.visit('https://demoqa.com/elements')
       console.log("Launch application")
-
+      cy.log("Hello World")
 
 
       
