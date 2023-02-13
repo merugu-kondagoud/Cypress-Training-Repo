@@ -19,6 +19,7 @@ describe('Test suite', () => {
 
     it('Launch application', () => {
         cy.visit('https://demo.guru99.com/test/newtours/index.php')
+        cy.visit('https://www.snapfish.com/home')
         cy.get('input[name="userName"]').type(userName)
         cy.get('input[name="password"]').type(password)
         cy.contains('Submit').click()
