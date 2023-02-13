@@ -7,6 +7,7 @@ describe('AsertionsSuite', () => {
 
  var loginPage = new LoginPage();
  loginPage.login('siddu', 'Siddu@123');
+ cy.log("completed loging")
        })
 
 })
