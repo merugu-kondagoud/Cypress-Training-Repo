@@ -9,6 +9,7 @@ before(function () {
         password = data.password;
         cy.log("user name:   " + userName)
         cy.log("password:    " + password)
+        console.log("good day")
 
     })
 
